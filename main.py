@@ -34,7 +34,7 @@ def delete_webhook(webhook_url):
         print(f"an error occurred: {e}")
 
 def main():
-    print("discord webhook messager")
+    print("--- Discord Webhook Destroyer ---")
     webhook_url = input("discord webhook url: ").strip()
     
     if not webhook_url.startswith("https://discord.com/api/webhooks/"):
@@ -77,4 +77,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
